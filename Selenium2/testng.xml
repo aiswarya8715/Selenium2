@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testing">
+<parameter name="username" value="abc">
+</parameter>
+<parameter name="password" value="xyz">
+</parameter>
+<classes>
+<class name="Xmlpgm.XmlPgm1">
+</class>
+
+</classes>
+
+  </test> <!-- Testing -->
+<test thread-count="5" name="Testing1">
+<parameter name="username" value="pqr">
+</parameter>
+<parameter name="password" value="efg">
+</parameter>
+<classes>
+<class name="Xmlpgm.XmlPgm1">
+</class>
+
+</classes>
+
+  </test> <!-- Testing -->
+</suite> <!-- Suite -->
